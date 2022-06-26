@@ -1,0 +1,44 @@
+body {
+  background: pink;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.one {
+  filter: blur(4px);
+}
+
+.two {
+  filter: contrast(180%);
+}
+
+.three {
+  filter: drop-shadow(2px 2px 8px);
+}
+
+.four {
+  filter: grayscale(220%);
+}
+.five {
+  filter: brightness(150%);
+}
+.six {
+  filter: hue-rotate(60deg);
+}
+.seven {
+  filter: invert(1);
+}
+.eight {
+  filter: opacity(0.4);
+}
+.nine {
+  filter: saturate(8);
+}
+.ten {
+  filter: sepia(1.3);
+}
